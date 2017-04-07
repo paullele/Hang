@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183FE2ED1E40BEB600C88D93 /* ForestOfTheHanged.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183FE2EC1E40BEB600C88D93 /* ForestOfTheHanged.swift */; };
 		1872D88D1E3A948200A5949A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D88C1E3A948200A5949A /* AppDelegate.swift */; };
 		1872D88F1E3A948200A5949A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872D88E1E3A948200A5949A /* ViewController.swift */; };
 		1872D8921E3A948200A5949A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872D8901E3A948200A5949A /* Main.storyboard */; };
 		1872D8941E3A948200A5949A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1872D8931E3A948200A5949A /* Assets.xcassets */; };
 		1872D8971E3A948200A5949A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1872D8951E3A948200A5949A /* LaunchScreen.storyboard */; };
+		1872D8A11E3A966000A5949A /* guesswords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1872D8A01E3A966000A5949A /* guesswords.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		183FE2EC1E40BEB600C88D93 /* ForestOfTheHanged.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForestOfTheHanged.swift; sourceTree = "<group>"; };
 		1872D8891E3A948200A5949A /* Hang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1872D88C1E3A948200A5949A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1872D88E1E3A948200A5949A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		1872D8931E3A948200A5949A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1872D8961E3A948200A5949A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1872D8981E3A948200A5949A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872D8A01E3A966000A5949A /* guesswords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = guesswords.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				1872D88C1E3A948200A5949A /* AppDelegate.swift */,
 				1872D88E1E3A948200A5949A /* ViewController.swift */,
+				183FE2EC1E40BEB600C88D93 /* ForestOfTheHanged.swift */,
 				1872D8901E3A948200A5949A /* Main.storyboard */,
+				1872D8A01E3A966000A5949A /* guesswords.plist */,
+				1872D8A21E3A974400A5949A /* Support Files */,
+			);
+			path = Hang;
+			sourceTree = "<group>";
+		};
+		1872D8A21E3A974400A5949A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
 				1872D8931E3A948200A5949A /* Assets.xcassets */,
 				1872D8951E3A948200A5949A /* LaunchScreen.storyboard */,
 				1872D8981E3A948200A5949A /* Info.plist */,
 			);
-			path = Hang;
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1872D8A11E3A966000A5949A /* guesswords.plist in Resources */,
 				1872D8971E3A948200A5949A /* LaunchScreen.storyboard in Resources */,
 				1872D8941E3A948200A5949A /* Assets.xcassets in Resources */,
 				1872D8921E3A948200A5949A /* Main.storyboard in Resources */,
@@ -139,6 +154,7 @@
 			files = (
 				1872D88F1E3A948200A5949A /* ViewController.swift in Sources */,
 				1872D88D1E3A948200A5949A /* AppDelegate.swift in Sources */,
+				183FE2ED1E40BEB600C88D93 /* ForestOfTheHanged.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +318,7 @@
 				1872D89D1E3A948200A5949A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
